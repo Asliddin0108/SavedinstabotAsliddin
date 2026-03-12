@@ -56,7 +56,7 @@ EXECUTOR = ThreadPoolExecutor(
 # ╚══════════════════════════════════════════════════════════════════════════════╝
 
 # 🔑 Bot tokeningizni shu yerga qo'ying
-BOT_TOKEN = "8331919528:AAEZJCdO6fV31NVnJ9eZacf-rJrEw3HtSww"
+BOT_TOKEN = "8252149024:AAEOooqpQq15n0H3zj7Ye8ikomD50s67ck8"
 
 # STORAGE GROUP (BOT XOTIRASI)
 STORAGE_GROUP_ID = -1003831196510
@@ -3188,4 +3188,5 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         logger.info("Bot foydalanuvchi tomonidan to'xtatildi")
     except Exception as e:
+
         logger.error(f"Kritik xato: {e}")
